@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  29 APR 2020 19:19
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  30 APR 2020 17:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -670,7 +670,9 @@ y
 \beamer@dimb=\dimen186
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerouterthemedefault.st
-y))) (/usr/local/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty
+y)))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerfontthemeprofessiona
+lfonts.sty) (/usr/local/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks43
 \inpenc@posthook=\toks44
@@ -749,27 +751,33 @@ LaTeX Info: Redefining \textlatin on input line 2089.
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(./MostBeautiful.aux)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerthemeAnnArbor.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.st
+y)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.
+sty)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/beamer/beamercolorthemewolverine.
+sty)) (./MostBeautiful.aux)
 \openout1 = `MostBeautiful.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -779,14 +787,14 @@ LaTeX Font Info:    ... okay on input line 11.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
+* h-part:(L,W,R)=(10.0pt, 344.19536pt, 10.0pt)
 * v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
 * \paperwidth=364.19536pt
 * \paperheight=273.14662pt
-* \textwidth=307.28987pt
+* \textwidth=344.19536pt
 * \textheight=244.6939pt
-* \oddsidemargin=-43.81725pt
-* \evensidemargin=-43.81725pt
+* \oddsidemargin=-62.26999pt
+* \evensidemargin=-62.26999pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
@@ -807,7 +815,7 @@ LaTeX Font Info:    ... okay on input line 11.
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box55
-Package hyperref Info: Link coloring OFF on input line 11.
+Package hyperref Info: Link coloring OFF on input line 13.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -817,60 +825,14 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count162
 )
-LaTeX Info: Redefining \ref on input line 11.
-LaTeX Info: Redefining \pageref on input line 11.
-LaTeX Info: Redefining \nameref on input line 11.
+LaTeX Info: Redefining \ref on input line 13.
+LaTeX Info: Redefining \pageref on input line 13.
+LaTeX Info: Redefining \nameref on input line 13.
 
 (./MostBeautiful.out) (./MostBeautiful.out)
 \@outlinefile=\write5
 \openout5 = `MostBeautiful.out'.
 
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 11.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 11.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 11.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 11.
-\symnumbers=\mathgroup6
-\sympureletters=\mathgroup7
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 11.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 11.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/bx/n on input line 11.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/bx/n on input line 11.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 11.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 11.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 11.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 11.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 11.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 11.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 11.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 11.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 11.
-LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 11.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 11.
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmr/bx/n on input line 11.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/lmss/bx/n --> T1/lmss/bx/n on input line 11.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 11.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 11.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/lmtt/m/n --> T1/lmtt/bx/n on input line 11.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/translator/translator-basic-dicti
 onary-English.dict
@@ -898,144 +860,74 @@ Dictionary: translator-theorem-dictionary, Language: English
 ) (./MostBeautiful.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 12.
+(hyperref)                setting the option has no effect on input line 14.
 
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.23 \usetheme{UniKlu}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 26.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmss.fd
-File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 28.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 26.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 28.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 26.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 28.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 26.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 28.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 26.
+(Font)              <20.74> on input line 28.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 26.
+(Font)              <14.4> on input line 28.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 26.
-LaTeX Font Info:    Try loading font information for U+msa on input line 26.
+(Font)              <12> on input line 28.
+LaTeX Font Info:    Try loading font information for U+msa on input line 28.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 26.
+LaTeX Font Info:    Try loading font information for U+msb on input line 28.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <20.74> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 26.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 26.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 26.
+) [1
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1
-
-]
-[2] [3
+] [2
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 49.
+(Font)              <10> on input line 51.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 49.
+(Font)              <7> on input line 51.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 49.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 49.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 49.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 49.
+(Font)              <5> on input line 51.
+
+[3
+
+]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 63.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 63.
  [4
 
-]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 61.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 61.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 61.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 61.
- [5
+] [5
 
 ] [6
 
-]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.110 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+] [7
 
-[7
+] [8
 
-]
-! Extra }, or forgotten $.
-<template> \unskip \hfil }
-                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.132 \end{frame}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.132 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.132 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[8
+] [9
 
 ]
 \tf@nav=\write6
@@ -1047,21 +939,21 @@ my insertion and my current dilemma will both disappear.
 \tf@snm=\write8
 \openout8 = `MostBeautiful.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 144.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 144.
  (./MostBeautiful.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 134.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 144.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 144.
 Package rerunfilecheck Info: File `MostBeautiful.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
  ) 
 Here is how much of TeX's memory you used:
- 20768 strings out of 492916
- 373715 string characters out of 6133346
- 462798 words of memory out of 5000000
- 24388 multiletter control sequences out of 15000+600000
- 82057 words of font info for 75 fonts, out of 8000000 for 9000
+ 20925 strings out of 492916
+ 379567 string characters out of 6133346
+ 468770 words of memory out of 5000000
+ 24531 multiletter control sequences out of 15000+600000
+ 55796 words of font info for 65 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 56i,15n,55p,807b,593s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,15n,55p,812b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on MostBeautiful.pdf (8 pages).
+Output written on MostBeautiful.pdf (9 pages).
