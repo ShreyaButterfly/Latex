@@ -41,9 +41,10 @@
 	\item 1 - the first positive integer
 	\item 0 - the concept of nothingness \{together with 1, it makes the basis of binary numbers\}
 	\item {\bf${\pi}$} - the ratio of a circle's circumference to its diameter. An irrational number.
-	\item \large{$e$} - the base of natural logarithms also known as Euler's number
-	\item \large{$\iu$} - the "imaginary" square root of -1, also known as imaginary number.
+	\item $e$ - the base of natural logarithms also known as Euler's number
+	\item $\iu$ - the "imaginary" square root of -1, also known as imaginary number.
 	\end{itemize}
+\vspace{20pt}
 Over the next 10-15 minutes, I will attempt to show you two different proofs for the equation.
 	
 \end{frame}
@@ -68,11 +69,16 @@ Over the next 10-15 minutes, I will attempt to show you two different proofs for
 \end{frame}
 
 \begin{frame}
+	\frametitle{The concept of exponential function $e^x$ \hspace{25pt} \textcolor{pink}{\Huge\(e^{\iu \pi} = -1\)}}
+	
+\end{frame}
+
+\begin{frame}
 	\frametitle{Taylor and Maclaurin Series \hspace{25pt} \textcolor{pink}{\Huge\(e^{\iu \pi} = -1\)}}
 	James Gregory and Brook Taylor invtented the idea of infinite series expansion of functions.  Scottish mathematician Colin Maclaurin used the work extensively to study functions centered around zero.  The basic idea of Maclaurin series is that any function can be expanded into a infinite series centered around zero as given below :
-	\large $$f(x) = f(0)+x.\dfrac{f'(0)}{1!}+ x^2.\dfrac{f''(0)}{2!} +x^3.\dfrac{f'''(0)}{3!} + \dots$$
+	{\large {$$f(x) = f(0)+x.\dfrac{f'(0)}{1!}+ x^2.\dfrac{f''(0)}{2!} +x^3.\dfrac{f'''(0)}{3!} + \dots$$}}
 	You can recenter it to any point $a$ on the x axis by shifting the equation to  :
-	\large $$f(x) = f(0)+(x-a).\dfrac{f'(0)}{1!}+ (x-a)^2.\dfrac{f''(0)}{2!} +(x-a)^3.\dfrac{f'''(0)}{3!} + \dots$$
+	{\large {$$f(x) = f(0)+(x-a).\dfrac{f'(0)}{1!}+ (x-a)^2.\dfrac{f''(0)}{2!} +(x-a)^3.\dfrac{f'''(0)}{3!} + \dots$$}}
 	
 	But for this presentation we will stick to centering around zero. 
 	\vspace{10pt}
@@ -96,15 +102,11 @@ Over the next 10-15 minutes, I will attempt to show you two different proofs for
 	\vspace{20pt}
 	Applying the Maclaurin formula we see that the infinite series expansion for $e^x$ is :
 
-	\large $$f(x) = f(0)+x.\dfrac{f'(0)}{1!}+ x^2.\dfrac{f''(0)}{2!} +x^3.\dfrac{f'''(0)}{3!} + \dots$$
-
-	\large $$e^x = 1+x.\dfrac{1}{1!}+ x^2.\dfrac{1}{2!} +x^3.\dfrac{1}{3!} + \dots$$
+	{\large $$f(x) = f(0)+x.\dfrac{f'(0)}{1!}+ x^2.\dfrac{f''(0)}{2!} +x^3.\dfrac{f'''(0)}{3!} + \dots$$
+	\large $$e^x = 1+x.\dfrac{1}{1!}+ x^2.\dfrac{1}{2!} +x^3.\dfrac{1}{3!} + \dots$$}
 
 	By extension:
-
-	\large $$e^{{\iu}.x} = 1+\iu.x.\dfrac{1}{1!}- x^2.\dfrac{1}{2!} -\iu.x^3.\dfrac{1}{3!} + x^4.\dfrac{1}{4!} \dots$$
-
-
+	{\large $$e^{{\iu}.x} = 1+\iu.x.\dfrac{1}{1!}- x^2.\dfrac{1}{2!} -\iu.x^3.\dfrac{1}{3!} + x^4.\dfrac{1}{4!} \dots$$}
 \end{frame}
 
 \begin{frame}
@@ -122,14 +124,10 @@ Over the next 10-15 minutes, I will attempt to show you two different proofs for
 	\end{center}
 	\vspace{20pt}
 	Applying the Maclaurin formula we see that the infinite series expansion for $e^x$ is :
-
-	\large $$f(x) = f(0)+x.\dfrac{f'(0)}{1!}+ x^2.\dfrac{f''(0)}{2!} +x^3.\dfrac{f'''(0)}{3!} + \dots$$
-
-	\large $$\sin(x) = 0+x.\dfrac{1}{1!} -x^3.\dfrac{1}{3!} + x^5.\dfrac{1}{5!} +\dots$$
-	
+	{\large $$f(x) = f(0)+x.\dfrac{f'(0)}{1!}+ x^2.\dfrac{f''(0)}{2!} +x^3.\dfrac{f'''(0)}{3!} + \dots$$
+	\large $$\sin(x) = 0+x.\dfrac{1}{1!} -x^3.\dfrac{1}{3!} + x^5.\dfrac{1}{5!} +\dots$$}	
 	By extension: 
-	
-	\large $$\iu.\sin(x) = 0+\iu.x.\dfrac{1}{1!} -\iu.x^3.\dfrac{1}{3!} + \iu.x^5.\dfrac{1}{5!} +\dots$$
+	{\large $$\iu.\sin(x) = 0+\iu.x.\dfrac{1}{1!} -\iu.x^3.\dfrac{1}{3!} + \iu.x^5.\dfrac{1}{5!} +\dots$$}
 
 \end{frame}
 
@@ -156,7 +154,6 @@ Over the next 10-15 minutes, I will attempt to show you two different proofs for
 \end{frame}
 
 \begin{frame}
-
 	\frametitle{Bringing it all together \hspace{25pt} \textcolor{pink}{\Huge\(e^{\iu \pi} = -1\)}}
 	\begin{center}
 	$\cos(x) + \iu.\sin(x) = 1+\iu..x.\dfrac{1}{1!}- x^2.\dfrac{1}{2!} -\iu..x^3.\dfrac{1}{3!} +x^4.\dfrac{1}{4!} + \iu..x^5.\dfrac{1}{5!} +\dots = e^{\iu.x}$
@@ -174,13 +171,11 @@ Over the next 10-15 minutes, I will attempt to show you two different proofs for
 	\begin{center}
 		$e^{\iu.\pi} + 1 = 0$
 	\end{center}
-
 \end{frame}
 
 
 \begin{frame}
 	\frametitle{A Graphical Proof \hspace{25pt} \textcolor{pink}{\Huge\(e^{\iu \pi} = -1\)}}
-	
 	%\begin{center}
 	Now I will show you all a graphical representation of this beautiful mathematical formula on Geogebra. The graphical proof of the equation is visually pleasing. We will now switch to Geogebra to go over the second way of prooving the equation.
 	%\end{center}
