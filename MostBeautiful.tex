@@ -8,6 +8,7 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{graphicx}
+\usepackage{mathtools}
 \usetheme{AnnArbor}
 %\usetheme{UniKlu}
 
@@ -18,8 +19,8 @@
 
 
 \author{\textcolor{blue}{Shreya Balaji}}
-\title{Exploring The Most Beautiful Mathematical Formula}
-\subtitle{\huge\(e^{\iu \pi} = -1\)}
+\title{Exploring a Beautiful Mathematical Identity}
+\subtitle{\huge\(e^{\iu \pi} +1 = 0\)}
 %\logo{}
 \institute{Berkeley Carroll School}
 %\date{}
@@ -34,7 +35,7 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Why is the Equation Beautiful \hspace{25pt} \textcolor{pink}{\Huge\(e^{\iu \pi} = -1\)}}
+	\frametitle{Why is the Identity Beautiful \hspace{25pt} \textcolor{pink}{\Huge\(e^{\iu \pi} + 1 =0\)}}
 	
 	Euler's identity is beautiful because it combines five of the most important numbers in mathematics into one equation. These are \dots
 	\begin{itemize}
@@ -50,7 +51,7 @@ Over the next 10-15 minutes, I will attempt to show you two different proofs for
 \end{frame}
 
 \begin{frame}
-	\frametitle{ History of Mathematicians Involved \hspace{25pt} \textcolor{pink}{\Huge\(e^{\iu \pi} = -1\)}}
+	\frametitle{ History of Mathematicians Involved \hspace{25pt} \textcolor{pink}{\Huge\(e^{\iu \pi} +1 = 0\)}}
 
 	A number of mathematicians laid the building blocks for understanding this equation.  As you can see, it has taken painstaking work of many mathematicians for us to come to such an elegant equation. Below are are some of the mathematicians whose works contributed to this equation :
 	\vspace{7pt}
@@ -69,16 +70,18 @@ Over the next 10-15 minutes, I will attempt to show you two different proofs for
 \end{frame}
 
 \begin{frame}
-	\frametitle{The concept of exponential function $e^x$ \hspace{25pt} \textcolor{pink}{\Huge\(e^{\iu \pi} = -1\)}}
+	\frametitle{The concept of exponential function $e^x$ \hspace{25pt} \textcolor{pink}{\Huge\(e^{\iu \pi} +1 = 0\)}}
+	
+	Write about exponential function. how continuous compounding results in exponential funciton
 	
 \end{frame}
 
 \begin{frame}
-	\frametitle{Taylor and Maclaurin Series \hspace{25pt} \textcolor{pink}{\Huge\(e^{\iu \pi} = -1\)}}
+	\frametitle{Taylor and Maclaurin Series \hspace{25pt} \textcolor{pink}{\Huge\(e^{\iu \pi} +1 = 0\)}}
 	James Gregory and Brook Taylor invtented the idea of infinite series expansion of functions.  Scottish mathematician Colin Maclaurin used the work extensively to study functions centered around zero.  The basic idea of Maclaurin series is that any function can be expanded into a infinite series centered around zero as given below :
 	{\large {$$f(x) = f(0)+x.\dfrac{f'(0)}{1!}+ x^2.\dfrac{f''(0)}{2!} +x^3.\dfrac{f'''(0)}{3!} + \dots$$}}
-	You can recenter it to any point $a$ on the x axis by shifting the equation to  :
-	{\large {$$f(x) = f(0)+(x-a).\dfrac{f'(0)}{1!}+ (x-a)^2.\dfrac{f''(0)}{2!} +(x-a)^3.\dfrac{f'''(0)}{3!} + \dots$$}}
+	You can re-center it to any point $a$ on the x axis by shifting the equation to  :
+	{\large {$$f(x) = f(a)+(x-a).\dfrac{f'(a)}{1!}+ (x-a)^2.\dfrac{f''(a)}{2!} +(x-a)^3.\dfrac{f'''(a)}{3!} + \dots$$}}
 	
 	But for this presentation we will stick to centering around zero. 
 	\vspace{10pt}
@@ -87,7 +90,7 @@ Over the next 10-15 minutes, I will attempt to show you two different proofs for
 \end{frame}
 
 \begin{frame}
-	\frametitle{Taylor Series for e(x) \hspace{25pt} \textcolor{pink}{\Huge\(e^{\iu \pi} = -1\)}}
+	\frametitle{Taylor Series for e(x) \hspace{25pt} \textcolor{pink}{\Huge\(e^{\iu \pi} +1 = 0\)}}
 	\begin{center}
 		\begin{tabular}{|c|c|c|c|c|c|}
 			\hline
@@ -110,7 +113,7 @@ Over the next 10-15 minutes, I will attempt to show you two different proofs for
 \end{frame}
 
 \begin{frame}
-	\frametitle{Taylor Series for $\sin(x)$ \hspace{25pt} \textcolor{pink}{\Huge\(e^{\iu \pi} = -1\)}}
+	\frametitle{Taylor Series for $\sin(x)$ \hspace{25pt} \textcolor{pink}{\Huge\(e^{\iu \pi} +1 = 0\)}}
 	\begin{center}
 		\begin{tabular}{|c|c|c|c|c|c|}
 			\hline
@@ -132,7 +135,7 @@ Over the next 10-15 minutes, I will attempt to show you two different proofs for
 \end{frame}
 
 \begin{frame}
-	\frametitle{Taylor Series for $\cos(x)$ \hspace{25pt} \textcolor{pink}{\Huge\(e^{\iu \pi} = -1\)}}
+	\frametitle{Taylor Series for $\cos(x)$ \hspace{25pt} \textcolor{pink}{\Huge\(e^{\iu \pi} +1 = 0\)}}
 	\begin{center}
 		\begin{tabular}{|c|c|c|c|c|c|}
 			\hline
@@ -154,7 +157,7 @@ Over the next 10-15 minutes, I will attempt to show you two different proofs for
 \end{frame}
 
 \begin{frame}
-	\frametitle{Bringing it all together \hspace{25pt} \textcolor{pink}{\Huge\(e^{\iu \pi} = -1\)}}
+	\frametitle{Bringing it all together \hspace{25pt} \textcolor{pink}{\Huge\(e^{\iu \pi} +1 = 0\)}}
 	\begin{center}
 	$\cos(x) + \iu.\sin(x) = 1+\iu..x.\dfrac{1}{1!}- x^2.\dfrac{1}{2!} -\iu..x^3.\dfrac{1}{3!} +x^4.\dfrac{1}{4!} + \iu..x^5.\dfrac{1}{5!} +\dots = e^{\iu.x}$
 	\end{center}
@@ -174,12 +177,39 @@ Over the next 10-15 minutes, I will attempt to show you two different proofs for
 \end{frame}
 
 
+
+
 \begin{frame}
-	\frametitle{A Graphical Proof \hspace{25pt} \textcolor{pink}{\Huge\(e^{\iu \pi} = -1\)}}
+	\frametitle{Quick review of Complex Numbers \hspace{25pt} \textcolor{pink}{\Huge\(e^{\iu \pi} +1 = 0\)}}
+	A complex number as a real part and an imaginary part.  Lets assume two complex numbers :
+	\begin{list}{$\odot$}{}
+		\item Let $z = a+\iu b$
+		\item Let $w = c+\iu d$
+	\end{list}
+Then the following rules apply to complex numbers
+	\begin{list}{$\odot$}{}
+		\item $ z+w = (a+c) + \iu(b+d) $\\
+		
+		\item $ z-w = (a-c) + \iu(b-d) $ \\
+		
+		\item $ z*w = (ac-bd) +\iu(bc+ad)$
+		
+		\item $z^2 = (a^2-b^2) +\iu(2ab)$ \\
+		
+		\item magnitude of $|z| = r = \sqrt{a^2 +b^2}$ 
+		
+		\item The trignometric representation is $z = r(cos(\theta)+\iu\sin(\theta))$ where $\theta = tan^{-1}(\frac{b}{a})$
+		
+	\end{list}
+\end{frame}
+
+\begin{frame}
+	\frametitle{A Graphical Proof \hspace{25pt} \textcolor{pink}{\Huge\(e^{\iu \pi} +1  = 0\)}}
 	%\begin{center}
 	Now I will show you all a graphical representation of this beautiful mathematical formula on Geogebra. The graphical proof of the equation is visually pleasing. We will now switch to Geogebra to go over the second way of prooving the equation.
 	%\end{center}
 \end{frame}
+
 
 \begin{frame}
 	\begin{center}
